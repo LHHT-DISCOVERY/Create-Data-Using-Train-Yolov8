@@ -1,9 +1,9 @@
 import os
-import cv2
+
 from PIL import Image
 
 # đường dẫn tới thư mục chứa các ảnh cần thay đổi kích thước
-input_folder = 'C:\Downloads\data_4\data_4'
+input_folder = 'C:\Downloads\gggg'
 
 # đường dẫn tới thư mục chứa các ảnh đã thay đổi kích thước
 output_folder = 'C:\Downloads\data_r'

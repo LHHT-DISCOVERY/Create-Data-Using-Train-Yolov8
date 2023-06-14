@@ -1,7 +1,7 @@
 import os
 import shutil
 
-folder_path = r'C:\Downloads\data'  # đường dẫn tới thư mục chứa các ảnh cần đổi tên
+folder_path = r'C:\Downloads\100_Test\100_Predict'  # đường dẫn tới thư mục chứa các ảnh cần đổi tên
 extension = '.jpg'  # đuôi mở rộng của các ảnh
 
 # lấy danh sách các file ảnh trong thư mục

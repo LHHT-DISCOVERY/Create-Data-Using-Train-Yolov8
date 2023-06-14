@@ -2,7 +2,7 @@ import os
 
 import cv2
 
-video_path = 'C:\Downloads\data_video\_dtr.mp4'  # đường dẫn tới video
+video_path = r'C:\Downloads\data_video\1.mp4'  # đường dẫn tới video
 image_folder = 'C:\Downloads\data2'  # đường dẫn tới thư mục lưu các ảnh
 
 # tạo thư mục lưu các ảnh nếu chưa tồn tại
@@ -14,8 +14,7 @@ cap = cv2.VideoCapture(video_path)
 
 # đếm số ảnh được tạo ra
 count = 0
-count_image = 272
-
+count_image = 1
 # lặp qua từng khung hình trong video
 while cap.isOpened():
     # đọc khung hình tiếp theo
@@ -26,7 +25,7 @@ while cap.isOpened():
         break
 
     # lưu ảnh vào thư mục
-    if count % 40 == 0:
+    if count % 20 == 0:
         # tạo tên file cho ảnh
         image_name = str(count_image) + '.jpg'
         cv2.imwrite(os.path.join(image_folder, image_name), frame)
