@@ -3,10 +3,10 @@ import os
 from PIL import Image
 
 # đường dẫn tới thư mục chứa các ảnh cần thay đổi kích thước
-input_folder = 'C:\Downloads\gggg'
+input_folder = 'C:\Downloads\DATA6\DATA6'
 
 # đường dẫn tới thư mục chứa các ảnh đã thay đổi kích thước
-output_folder = 'C:\Downloads\data_r'
+output_folder = r'C:\Downloads\New folder'
 
 # kích thước mới của ảnh
 new_size = (640, 640)
